@@ -1,3 +1,1 @@
 # MasteringEmbeddedSystemFromScratch
-
-# test
