@@ -15,7 +15,12 @@ int main()
 	printf("Enter an operator either \"+\" or \"-\" or \"*\" or \"/\" : ");
 	fflush(stdin);
 	fflush(stdout);
-	scanf("%c %f %f", &a, &b, &c);
+	scanf("%c", &a);
+
+	printf("Enter two operands : ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%f %f", &b, &c);
 
 	switch(a)
 	{
